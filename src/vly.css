@@ -1,0 +1,56 @@
+.vly-green {
+    color: #5cb85c;
+}
+
+.vly-red {
+    color: #d9534f;
+}
+
+.vly-green-bg {
+    background-color: #5cb85c;
+}
+
+.vly-red-bg {
+    background-color: #d9534f;
+}
+
+.vly-label {
+    display: inline;
+    padding: .2em .4em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    cursor: help;
+}
+
+.vly-chevron::before {
+    font-size: 20px;
+    border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(-45deg);
+    width: 0.45em;
+}
+
+.vly-chevron-up:before {
+
+}
+
+.vly-chevron-down:before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.vly-team {
+    font-weight: bold;
+}
